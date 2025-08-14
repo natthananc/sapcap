@@ -1,0 +1,25 @@
+###-----------
+@baseurl = http://localhost:4004/odata/v4
+GET {{baseurl}}/catalog/interactions_items
+
+###-----------
+GET {{baseurl}}/catalog/interactions_headers?$expand=items
+
+
+###-----------
+POST {{baseurl}}/catalog/interactions_headers
+Content-Type: application/json
+
+{
+    //"ID": "102",
+      "createdAt": null,
+      "createdBy": null,
+      "modifiedAt": null,
+      "modifiedBy": null,
+      "partner": "P0002",
+      "country_code": "EN",
+      "items": [],
+      "HasActiveEntity": false,
+      "HasDraftEntity": false,
+      "IsActiveEntity": true
+}

@@ -4,6 +4,7 @@ using { sap } from '@sap/cds-common-content';
 service CatalogService {
 
     @odata.draft.enabled : true
+    @odata.draft.bypass
     entity interactions_headers as projection on interactions.Headers;
     entity interactions_items as projection on interactions.Items;
 
