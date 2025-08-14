@@ -10,6 +10,7 @@
     "@sap-cloud-sdk/http-client": "^4.1.1",
     "@sap-cloud-sdk/util": "^4.1.1",
     "@sap/cds": "^9",
+    "@sap/cds-common-content": "^3.0.1",
     "@sap/low-code-event-handler": "^1.2.5",
     "@sap/xsenv": ">=3.3.2 <3.3.3",
     "@sap/xssec": "^4.9.1",
